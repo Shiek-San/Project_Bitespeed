@@ -6,6 +6,7 @@ import cookieParser from "cookie-parser";
 import path from "path";
 import dotenv from 'dotenv';
 dotenv.config();
+import * as expressValidator from 'express-validator';
 
 const app = express();
 
