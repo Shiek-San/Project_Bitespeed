@@ -1,4 +1,3 @@
-// src/service/contactService.ts
 import { getRepository } from "typeorm";
 import { Contact, LinkPrecedence } from "../entity/Contact";
 import { Request, Response, NextFunction } from "express";
